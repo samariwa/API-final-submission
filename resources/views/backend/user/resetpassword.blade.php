@@ -31,7 +31,7 @@
             {{ Session::get('error_message') }}
         </div>
     @endif
-    <form class="form-vertical" action="{{route('reset.password.send')}}" method="post">
+    <form class="form-vertical" action="{{route('change.email')}}" method="post">
         {{csrf_field()}}
         <div class="control-group normal_text"><h3><img src="{{asset('images/tuskys.png')}}" height="230" width="230" alt="Logo"/></h3></div>
         <div class="controls">

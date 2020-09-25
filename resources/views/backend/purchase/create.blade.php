@@ -105,7 +105,7 @@
                                     <label>Purchase Status</label><br>
                                     <input type="radio" name="status" id="normal" value="normal" checked><label for="normal"> Normal Bill </label><br>
                                     <input type="radio" name="status" value="vat" id="vat" ><label for="vat"> Vat Bill </label><br>
-                                    <input type="radio" name="status" id="pan" value="pan"><label for="pan"> Pan Bill </label>
+                                
                                 </div>
                                 <!-- /.box-body -->
                                 <div class="box-footer">
